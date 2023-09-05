@@ -1,0 +1,224 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+
+}
+
+.two-columns {
+    column-count: 2;
+    column-gap: 50px; /* Adjust this value for desired spacing between columns */
+    list-style-type: disc;
+    padding-left: 20px; /* Adjust based on your preferences */
+}
+
+.two-columns li {
+    break-inside: avoid; /* Prevents items from breaking across columns */
+}
+
+
+img{
+ width: 100%;
+}
+
+a {
+    display: block;
+    background-color: #00ff00;
+    color: white;
+    padding: 15px;
+    width: 80%;
+    text-decoration: none;
+    margin: 20px auto;
+    font-weight: 600;  /* Assuming you meant "font-weight" instead of "font-family" */
+    border-radius: 6px;
+    box-shadow: 0px 0px 2px #00ff00;
+    animation: 1s pulse infinite;
+    text-align: center;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        
+    }
+    50% {
+        transform: scale(1.07);
+       /* Slightly darker shade during pulse */
+    }
+    100% {
+        transform: scale(1);
+        
+    }
+}
+
+header{
+    background-color: red;
+    padding: 25px 4ch;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+h1{
+    text-align: center;
+    font-family: 400;
+    padding: 5px;
+}
+
+h1 span{
+    color: red;
+}
+
+p{
+    text-align: center;
+}
+
+.p1{
+    font-size: 23px;
+    padding: 10px 5px;
+}
+
+.p1 span{
+    color: blue;
+    font-weight: bold;
+}
+
+
+.ul-div{
+    display: flex;
+    justify-content:center;
+    margin: 0px 0px 15px 0px;
+}
+
+li{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+section{
+    margin: 0px;
+}
+.section-b-1{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 15px 5px;
+}
+
+.section-b-1 p{
+    font-size: 18px;
+}
+
+.section-b-1 h2{
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.section-b-1 span{
+    background-color: white;
+    color: blue;
+    padding: 3px 5px;
+}
+
+.section-03{
+    text-align: center;
+}
+
+.section-03 p{
+    font-size: 18px;
+}
+
+.doctor{
+    font-size: 30px;
+}
+
+.doctor span{
+    background-color: yellow;
+    padding: 2px 5px;
+}
+
+#doctor{
+    font-size: 24px;
+    padding: 3px 5px;
+    line-height: 33px;
+}
+
+.banner{
+    background-color: blue;
+    padding: 5px 5px;
+    color: white;
+}
+
+.iframe-collection{
+    margin: 5px 2px;
+    display: flex;
+    gap: 2px;
+}
+
+.video{
+    width: 100%;
+    border: 1px solid blue;
+}
+
+iframe{
+    width: 100%;
+}
+
+.stars{
+    width: 200%;
+    color: yellow;
+}
+
+.section-b-2{
+    background-color: blue;
+    color: white;
+    padding: 15px 5px;
+}
+
+.section-b-2 h2{
+    text-align: center;
+}
+
+.offer{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+footer{
+    padding: 35px 0px;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    background-color: black;
+}
+
+.garantee-section{
+    text-align: center;
+    padding: 5px 5px;
+}
+
+.garantee-section h2{
+    font-size: 28px;
+}
+
+.garantee-section h2 span{
+    background-color: blue;
+    color: white;
+    padding: 3px 5px;
+}
+
+
+.garantee-section img{
+    width: 250px;
+}
+
+.garantee-section p{
+    font-size: 18px;
+}
+
+
+.garantee-section span{
+    color: blue;
+    font-weight: 600;
+}
